@@ -98,6 +98,14 @@ Quand j'étais entrepreneur, ma plus grande crainte était de réussir à créer
 
 Je vous remercie de m'avoir donné cette opportunité.
 
+## Points d'amélioration
+Si je devais sortir ce site Internet pour moi, mis à part l'ajout de pages annexes comme une page à propos ou une page de contact, je pense que j'y ajouterais un système de commentaires pour avoir un retour sur les recettes. Egalement, j'ai pensé le site comme étant très personnel, donc avec l'idée où pour chaque recette que je ferais, j'y associerais une vidéo, mais si c'était pour un client externe, je lui laisserais la possibilité de choisir entre une vidéo ou une -galerie- photo.
+
+- Recherche par thématique
+- Une page recette avec des filtres ?
+- Un système de filtres en fonction de ce qu'on a dans le frigo ( Idée trouvée sur Marmiton ) 
+
+
 
 ## Installation
 
