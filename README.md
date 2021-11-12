@@ -105,3 +105,15 @@ Vous avez mon wordpress installé, avec les plugins déjà installés, mes texte
 
 
 Cependant, si cela ne marchait pas ( *impossible* ) voici les infos : 
+
+-Wordpress 5.8.2
+
+-Advanced Custom Fields PRO 5.10.2 (*J'ai mis ce plugin comme étant requis par mon thème pour fonctionner, il ira chercher directement l'archive dans le dossier plugin du theme*)
+
+-Newsletter, SMTP, Email marketing and Subscribe forms by Sendinblue 3.1.24
+
+-Safe SVG 1.9.9
+
+-WebP Converter for Media 
+
+-Convert WebP & Optimize Images 3.2.3
