@@ -120,6 +120,7 @@ Ces deux fichiers ont été créés avec le plugin [duplicator](https://fr.wordp
 #### Création d'un dossier
 Si vous travaillez en local, 
 Wamp : Créez un dossier dans votre www
+
 Xampp : Créez un dossier dans votre htdocs
 
 
