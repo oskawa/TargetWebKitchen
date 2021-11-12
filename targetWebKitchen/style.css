@@ -1,0 +1,862 @@
+/*
+Theme Name: TargetWebKitchen
+Author: Maxime Eloir
+Author URI: https://maxime-eloir.fr/
+Text Domain: targetweb
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+h1, h2, h3, h4, p, span, a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn_stroke {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #C69761;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 9px 85px;
+    background: linear-gradient(90deg, #C69761, #C69761);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size .6s 0s;
+}
+
+.btn_stroke:hover {
+    background-size: 100% 100%;
+    color: #2e475e;
+    text-decoration: none;
+}
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+/*********************** H E A D E R *****************************/
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+header {
+    padding-top: 25px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff8f;
+}
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+header .logo svg {
+    width: 183px;
+    transform: rotate(-4.5deg);
+}
+
+header #menu-droite {
+    display: inline-flex;
+}
+
+header #menu-droite .menu a {
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+header #menu-droite .menu li:first-child {
+    margin-right: 20px;
+}
+
+header ul svg {
+    width: 24px;
+    height: 24px;
+}
+
+header ul.social {
+    margin-left: 43px;
+}
+
+header ul.social li:nth-child(2) {
+    margin: 0 1rem;
+}
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+/**************************** FOOTER *****************************/
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+footer {
+    background: rgba(198, 151, 97, 0.05);
+    padding-top: 45px;
+}
+
+footer .footer-principal {
+    padding-bottom: 60px;
+}
+
+footer .logo svg {
+    margin-bottom: 2rem;
+    transform: rotate(-4.5deg);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer ul.social li {
+    margin-right: 16px;
+}
+
+footer ul.social li:last-child {
+    margin-right: 0;
+}
+
+/* footer .menu-menu-footer {
+    width: 100%;
+    text-align: center;
+} */
+
+footer .menu li {
+    margin-right: 20px;
+}
+
+footer .menu li:last-child {
+    margin-right: 0;
+}
+
+footer .social ul {
+    justify-content: center;
+}
+
+footer .social svg {
+    width: 24px;
+    height: 24px;
+}
+
+footer .menu a {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #664A2A;
+}
+
+footer #mail {
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #C69761;
+    margin-bottom: 25px;
+}
+
+footer .sib-email-area {
+    margin-bottom: 2rem;
+}
+
+footer .sib-email-area input[value] {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .sib-email-area input[type='email'] {
+    border-radius: 10px 0 0 10px;
+    background: #FFFFFF;
+    border: 1px solid #C69761;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 12px;
+}
+
+footer .sib-email-area input[type='email']:focus {
+    outline: none;
+}
+
+footer .sib-email-area input[type='submit'] {
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #C69761;
+    background-color: #C69761;
+    color: white;
+    padding-top: 2.5px;
+}
+
+footer .sib-email-area input::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    padding: 12px;
+}
+
+footer #credits {
+    background-color: #3F3F3F;
+}
+
+footer #credits a, footer #credits p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 93.4%;
+    /* or 11px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+/********************* F R O N T P A G E *************************/
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+section#hero {
+    height: 670px;
+    position: relative;
+    background-position-x: 266%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+section#hero:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F2F2F4;
+    z-index: -1;
+}
+
+section#hero #fond_carotte {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    top: -43px;
+}
+
+/* section#hero #back-hero {
+    clip-path: circle(427.5px at 305px 236px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+section#hero .logo, section#hero h1 {
+    position: relative;
+    z-index: 10;
+}
+
+section#hero #image_de_fond {
+    position: absolute;
+    background-image: url(http://localhost/teamsidekitchen/wp-content/uploads/2021/11/hero-photo-ingredients.jpg);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 56%;
+    background-position-x: 100%;
+    background-position-y: 60%;
+}
+
+section#hero h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 102.5%;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+section#hero #inputRecette {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 15px;
+    border: none;
+    height: 65px;
+    width: 100%;
+    padding: 25px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1A1717;
+    position: relative;
+}
+
+section#hero #inputRecette svg {
+    position: absolute;
+    right: 30px;
+}
+
+section#hero #inputRecette input {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 330px;
+}
+
+section#hero .recherches {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+section#hero .recherches a {
+    display: flex;
+    color: black;
+}
+
+section#hero .recherches h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1A1717;
+}
+
+section#hero .recherches a:hover {
+    text-decoration: none;
+}
+
+section#hero .recherches img {
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+section#hero .recherches .texte {
+    align-self: center;
+    padding-left: 1rem;
+}
+
+section#hero .recherches ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#hero input:focus {
+    outline: none;
+}
+
+section#presentation {
+    padding-top: 170px;
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    background-position-x: 0;
+}
+
+section#presentation h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+section#presentation h2 span {}
+
+section#presentation p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+section#presentation img {
+    width: 100%;
+    height: 315px;
+    border-radius: 9px;
+}
+
+section#dernieres_recettes {
+    margin-top: 110px;
+}
+
+section#dernieres_recettes h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+section#dernieres_recettes h3::before, section#dernieres_recettes h3::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.5px solid #C69761;
+    width: 35%;
+    margin: 0 1.5rem;
+    transform: translateY(-0.1rem);
+}
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+/************************* SINGLE RECIPES *************************/
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+body.single-recipes {
+    background-color: #F8F8F8;
+}
+
+section#hero-recette {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section#hero-recette:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2c3c4b81;
+    z-index: 0;
+    bottom: 0;
+}
+
+section#hero-recette .container {
+    height: 100%;
+}
+
+section#hero-recette .container .row {
+    height: 100%;
+    position: relative;
+}
+
+section#hero-recette .container .row h1 {
+    position: absolute;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 80%;
+    color: #FFFFFF;
+    width: 88%;
+}
+
+section#recette .container .row {
+    margin-top: 80px;
+}
+
+section#recette #ingredients {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    padding: 2rem 2.5rem;
+}
+
+section#recette #ingredients #titre-ingredient {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 126%;
+    color: #000000;
+}
+
+section#recette #ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#recette #ingredients ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+section#recette #ingredients ul li:before {
+    content: '';
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+
+section#recette #ingredients ul .changed::before {
+    background: rgba(198, 151, 97, 1);
+}
+
+section#recette #ingredients ul li:hover::before {
+    
+    background: rgba(198, 151, 97, 0.4);
+}
+
+section#recette #ingredients ul li p {
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+section#recette .container .row .sticky {
+    margin-top: -10rem;
+    position: sticky;
+    top: 2rem;
+    z-index: 100;
+}
+
+section#recette h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80%;
+    color: #FFFFFF;
+}
+
+section#recette #description h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 126%;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+section#recette #description p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 126%;
+    color: #000000;
+}
+
+section#recette #description ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#recette #description ul li {
+    padding-bottom: 10px;
+}
+
+section#recette #description ul li span {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 126%;
+    color: #000000;
+}
+
+section#recette #video {
+    height: 270px;
+}
+
+section#recette #video .wp-video, section#recette #video .wp-video-shortcode, .wp-video-shortcode video, video.wp-video-shortcode {
+    height: 100% !important;
+}
+
+.mejs-controls, section#recette #video .wp-video-shortcode {
+    border-radius: 20px;
+}
+
+section#recette #etapes {
+    margin-bottom: 72px;
+}
+
+section#recette #etapes hr {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 0;
+}
+
+section#recette #etapes h3, section#recette #ustensiles h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80%;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+section#recette #etapes ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section#recette #etapes ul li {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+section#recette #etapes ul li .chiffre {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 80%;
+    color: #000000;
+}
+
+section#recette #etapes ul li .explication {
+    width: 70%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 126%;
+    /* or 20px */
+    color: #000000;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+section#recettes-similaires {
+    background: rgba(198, 151, 97, 0.05);
+    margin-top: 3rem;
+    padding-top: 80px;
+}
+
+section#recettes-similaires h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+section#recettes-similaires a {
+    color: black;
+}
+
+.thumbnail-recettes {
+    position: relative;
+}
+
+.thumbnail-recettes .type-de-recette {
+    position: absolute;
+    background-color: white;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    z-index: 10;
+}
+
+.thumbnail-recettes .type-de-recette svg {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.thumbnail-recettes .type-de-recette svg path {
+    fill: rgb(29, 29, 29);
+}
+
+.thumbnail-recettes .type-de-recette p {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.thumbnail-recettes img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 180px;
+    object-fit: cover;
+    filter: grayscale(0.30);
+}
+
+.thumbnail-recettes:hover img {
+    filter: grayscale(0);
+}
+
+.thumbnail-recettes:hover li {
+    color: black;
+}
+
+.thumbnail-recettes #texte {
+    padding: 1.5rem 0;
+}
+
+.thumbnail-recettes #texte h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 90%;
+    text-align: center;
+    color: #1A1717;
+}
+
+.thumbnail-recettes #texte ul {
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+
+.thumbnail-recettes #texte ul li:nth-child(1) {
+    margin-right: 0.5rem;
+}
+
+section#recette #ustensiles .ustensiles .texte-ustensiles {
+    margin-bottom: 26px;
+}
+
+section#recette #ustensiles .ustensiles .image-ustensiles {
+    background: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+section#recette #ustensiles .ustensiles .image-ustensiles img {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+section#recette #ustensiles .ustensiles .texte-ustensiles p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 80%;
+    /* identical to box height, or 13px */
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+}
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+/******************* R E S P O N S I V E *************************/
+
+/*****************************************************************/
+
+/*****************************************************************/
+
+@media (max-width: 992px) {
+    header {
+        padding: 15px 0;
+    }
+    header .logo svg {
+        width: 150px;
+    }
+    button.hamburger {
+        right: 0;
+        z-index: 2;
+        padding: 0 15px 0 0;
+    }
+    .col-logo {
+        z-index: 20;
+    }
+    .menu li:after {
+        display: grid;
+        content: "";
+        border-top: 1px solid #0000002b;
+        width: 60%;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+        margin: 1rem 0;
+    }
+    .hamburger-box {
+        z-index: 20;
+    }
+    .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+        background-color: rgb(58, 50, 50);
+    }
+    .mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        color: black;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        list-style: none;
+        padding-top: 4rem;
+    }
+    .mobile ul li a {
+        color: black !important;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .mobile.showMenu {
+        z-index: 1;
+        transform: translateY(0);
+    }
+    .mobile ul {
+        padding-left: 0;
+        margin-left: 0;
+        display: grid;
+    }
+    .mobile .menu-menu-principal-container {
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .showMenu {
+        display: block;
+    }
+    .menu-menu-footer-container {
+        display: none;
+    }
+    section#hero .logo {
+        width: 100%;
+        display: inline-flex;
+    }
+    section#recette .container .row .sticky {
+        position: initial;
+        margin-top: 2rem;
+    }
+    section#recette #video .wp-video, section#recette #video .wp-video-shortcode, .wp-video-shortcode video, video.wp-video-shortcode {
+        width: 100% !important;
+    }
+    section#recette #etapes hr {
+        width: 100%;
+    }
+    section#presentation img {
+        object-fit: cover;
+        margin-top: 2rem
+    }
+    section#dernieres_recettes h3::before, section#dernieres_recettes h3::after {
+        width: 3%;
+    }
+    section#presentation {
+        padding-top: 50px;
+    }
+    section#hero #inputRecette input {
+        width: auto;
+    }
+    section#hero-recette .container .row h1 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    section#dernieres_recettes h3::before, section#dernieres_recettes h3::after {
+        width: 28%;
+    }
+}
