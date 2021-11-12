@@ -16,19 +16,16 @@ Mercredi :
 - définir client
 - chercher design
 - faire design
-- manger de l'avocat
 - coder la page recettes
 
 Jeudi : 
 - Coder page accueil
-- manger des pâtes
 - gérer la search bar
 
 Vendredi :
 - Gérer le responsive
 - Créer ce README
 - Ajout de fonction requiert plugins
-- Manger du coleslaw et un yaourt au chocolat
 
 
 ## Le projet
