@@ -111,7 +111,7 @@ Si je devais sortir ce site Internet pour moi, mis à part l'ajout de pages anne
 
 Ah ! Nous y sommes ! 
 Le moment tant attendu ou je réussis à vous convaincre... J'espère.
-Dans le dossier "Installation" de ce repo, vous trouverez deux fichiers :
+En suivant ce [lien](https://drive.google.com/drive/folders/1_xtfa5X89PtJoHEClwjKhdnSkVVzPTtS?usp=sharing), vous trouverez deux fichiers : 
 - installer.php
 - un_nom_super_long.zip
 
