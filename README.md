@@ -10,6 +10,27 @@ Je vous souhaite une bonne lecture, une bonne découverte et à bientôt j'espè
 
 Maxime Eloir
 
+
+*Too long to read ?*
+Mercredi : 
+- définir client
+- chercher design
+- faire design
+- manger de l'avocat
+- coder la page recettes
+
+Jeudi : 
+- Coder page accueil
+- manger des pâtes
+- gérer la search bar
+
+Vendredi :
+- Gérer le responsive
+- Créer ce README
+- Ajout de fonction requiert plugins
+- Manger du coleslaw et un yaourt au chocolat
+
+
 ## Le projet
 
 Le projet est la réalisation d'un site de recettes de cuisine intégrant deux pages :
