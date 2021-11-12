@@ -12,16 +12,15 @@ $image_de_fond_accueil = get_field('image_de_fond_accueil', 'options');
 ?>
 
 
-<section id="hero" >
-<div id="image_de_fond" style="background-image:url(<?php echo $image_hero['url']; ?>);"></div>
+<section id="hero">
+    <div id="image_de_fond" style="background-image:url(<?php echo $image_hero['url']; ?>);"></div>
 
     <div class="container h-100">
         <div class="row h-100 justify-content-end align-content-center">
             <div class="col-12 col-lg-5 p-relative">
                 <div id="fond_carotte">
-                    <svg width="252" height="266" viewBox="0 0 252 266" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.34427 263.068C26.7265 283.29 176.88 193.63 199.114 155.863C209.786 137.723 197.187 111.108 176.584 89.8456C200.003 74.2333 220.607 122.854 240.173 112.595C249.066 107.837 254.847 93.1167 250.549 84.0467C242.841 67.9883 217.198 67.9883 199.855 66.0554C212.158 63.0816 241.655 50.4431 242.248 32.6004C242.841 18.921 225.498 3.30872 211.862 4.9443C193.926 7.02594 187.404 32.8978 181.327 49.5509C180.586 38.994 178.362 15.7986 166.801 5.68774C151.385 -7.84294 132.857 4.9443 132.412 21.3001C131.819 41.0757 174.212 52.0786 160.872 75.8688C138.341 58.4722 111.809 48.9562 94.7625 58.9183C87.4994 63.5277 79.1987 72.449 70.6016 84.0467C83.7937 98.0235 102.026 114.825 116.404 124.49C119.368 126.572 120.258 130.735 118.034 133.709C115.959 136.831 111.809 137.575 108.844 135.493C94.1696 125.531 76.2342 109.026 62.8938 95.1984C56.2236 105.161 49.4052 116.461 43.0314 128.356C55.6307 141.143 71.6392 155.566 84.3867 164.19C87.3512 166.272 88.0923 170.435 86.0172 173.409C83.942 176.531 79.7916 177.275 76.6789 175.193C64.0796 166.569 49.1087 153.187 36.5095 140.697C10.2733 192.59 -8.99612 251.173 4.34427 263.068Z" fill="#C69761" fill-opacity="0.4" />
-                    </svg>
+
+                    <?php echo file_get_contents(get_template_directory() . '/images/carotte.svg'); ?>
                 </div>
                 <?php if ($logo_custom) : ?>
                     <a href="<?php echo get_home_url(); ?>" class="logo">
@@ -58,11 +57,7 @@ $image_de_fond_accueil = get_field('image_de_fond_accueil', 'options');
                     $args_btn['class'] = 'btn_stroke';
                     get_template_part('page/element', 'bouton', $args_btn);
                     ?>
-
-
                 <?php endif; ?>
-
-
             </div>
 
             <div class="offset-lg-1 col-12 col-lg-5">

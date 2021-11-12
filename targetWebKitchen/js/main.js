@@ -3,6 +3,7 @@
       console.log($(this))
 
       $(this).css('textDecoration', 'line-through')
+      $(this).css('text-decoration-color', '#C69761')
    })
 
    $('.ingredient').click(function () {

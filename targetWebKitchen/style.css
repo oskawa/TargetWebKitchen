@@ -25,8 +25,7 @@ a:hover {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 9px 85px;
-    background: linear-gradient(90deg,#C69761,#C69761);
- 
+    background: linear-gradient(90deg, #C69761, #C69761);
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size .6s 0s;
@@ -60,6 +59,11 @@ header ul {
     list-style: none;
     display: inline-flex;
     padding: 0;
+}
+
+header .logo svg {
+    width: 183px;
+    transform: rotate(-4.5deg);
 }
 
 header #menu-droite {
@@ -435,6 +439,18 @@ section#hero-recette {
     height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+section#hero-recette:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2c3c4b81;
+    z-index: 0;
+    bottom: 0;
 }
 
 section#hero-recette .container {
@@ -453,6 +469,7 @@ section#hero-recette .container .row h1 {
     font-size: 46px;
     line-height: 80%;
     color: #FFFFFF;
+    width: 88%;
 }
 
 section#recette .container .row {
@@ -682,7 +699,7 @@ section#recettes-similaires a {
 .thumbnail-recettes #texte h4 {
     font-weight: bold;
     font-size: 20px;
-    line-height: 80%;
+    line-height: 90%;
     text-align: center;
     color: #1A1717;
 }
@@ -829,5 +846,14 @@ section#recette #ustensiles .ustensiles .texte-ustensiles p {
     }
     section#hero #inputRecette input {
         width: auto;
+    }
+    section#hero-recette .container .row h1 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    section#dernieres_recettes h3::before, section#dernieres_recettes h3::after {
+        width: 28%;
     }
 }
