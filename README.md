@@ -34,7 +34,7 @@ Le projet est la réalisation d'un site de recettes de cuisine intégrant deux p
 - Une home-page avec visualisation des dernières recettes créées
 - une page pour la recette avec tout ce qu'il faut pour mener à bien cette dite recette : ingrédients, durée, coût, étape, etc.
 
-Etant fin cuisiniers dans ma famille (entendez par là, le genre de cuisine au beurre, mélangé avec une sauce au beurre et on rajoutera un peu de beurre parce qu'au final, on a toujours besoin de beurre), je suis simplement parti de mon cas et me suis dit :
+Etant fin cuisiniers dans ma famille (entendez par là, cuisine grasse au beurre), je suis simplement parti de mon cas et me suis dit :
 
 *" Je cuisine dorénavant des plats plus légers, je veux partager mes recettes, comment je le fais et pourquoi je le fais ?"***
 
