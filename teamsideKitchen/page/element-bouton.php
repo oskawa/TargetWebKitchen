@@ -1,0 +1,1 @@
+<a href="<?php echo $args['url']; ?>" class="<?php echo $args['class']; ?>" title="<?php echo $args['title']; ?>" target="<?php echo $args['target']; ?>"><?php echo $args['title']; ?></a>
