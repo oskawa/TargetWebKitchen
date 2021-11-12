@@ -131,7 +131,7 @@ L'installation va se lancer, ça va vous demander de vous connecter à votre BDD
 Vous avez mon wordpress installé, avec les plugins déjà installés, mes textes, mes images, mes vidéos, etc etc.
 
 
-Cependant, si cela ne marchait pas ( *impossible* ) voici les infos : 
+Cependant, si cela ne marchait pas, vous trouverez également ma base de données [ICI](https://drive.google.com/file/d/1CE-Ss2iRpGxxk8wzxB-SgdHeOSs5TbTx/view?usp=sharing) et voici la liste des extensions utilisées: 
 
 -Wordpress 5.8.2
 
