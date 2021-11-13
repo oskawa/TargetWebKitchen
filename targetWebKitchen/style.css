@@ -47,6 +47,10 @@ a:hover {
 
 /*****************************************************************/
 
+.hamburger.is-active:hover, .hamburger:hover{
+    opacity: 1;
+}
+
 header {
     padding-top: 25px;
     position: absolute;
