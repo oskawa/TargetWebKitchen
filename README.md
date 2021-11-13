@@ -89,12 +89,6 @@ Donc :
 - Et voilà ! 
 
 
-## Mon expérience 
-Au final, j'ai vraiment pris plaisir à coder ce site. Cela m'a permis de me forcer à penser rapidement, à agir et à me faire confiance sur les choix pris.
-
-Quand j'étais entrepreneur, ma plus grande crainte était de réussir à créer un visuel convaincant, aussi bien en print que en web. Et ça reste le cas encore maintenant ! J'ai plus confiance en mes compétences et en mes prises de décision, mais il existe toujours ce stress de savoir si le design proposé va plaire ou non.
-
-Je vous remercie de m'avoir donné cette opportunité.
 
 ## Points d'amélioration
 Si je devais sortir ce site Internet pour moi, mis à part l'ajout de pages annexes comme une page à propos ou une page de contact, je pense que j'y ajouterais un système de commentaires pour avoir un retour sur les recettes. Egalement, j'ai pensé le site comme étant très personnel, donc avec l'idée où pour chaque recette que je ferais, j'y associerais une vidéo, mais si c'était pour un client externe, je lui laisserais la possibilité de choisir entre une vidéo ou une -galerie- photo.
@@ -147,3 +141,12 @@ Voici également les extensions utilisées :
 -WebP Converter for Media 
 
 -Convert WebP & Optimize Images 3.2.3
+
+
+## Conclusion
+
+J'ai vraiment pris plaisir à coder ce site. Cela m'a permis de me forcer à penser, à agir rapidement et à me faire confiance sur les choix pris.
+
+Quand j'étais entrepreneur, ma plus grande crainte était de réussir à créer un visuel convaincant, aussi bien en print que en web. Et ça reste le cas encore maintenant ! J'ai plus confiance en mes compétences et en mes prises de décision, mais il existe toujours ce stress de savoir si le design proposé va plaire ou non.
+
+Je vous remercie de m'avoir donné cette opportunité.
