@@ -40,7 +40,7 @@ $attr =  array(
                         <li>
 
                             <?php echo file_get_contents(get_template_directory() . '/images/preparation.svg'); ?>
-                            <span> Préparation: <?php echo $temps_total_de_preparation; ?></span>
+                            <span> <?php echo $temps_total_de_preparation; ?></span>
                         </li>
                         <li>
                             <?php echo file_get_contents(get_template_directory() . '/images/difficulte.svg'); ?>

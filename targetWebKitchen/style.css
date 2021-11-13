@@ -525,7 +525,12 @@ section#recette #ingredients ul li:hover::before {
 section#recette #ingredients ul li p {
     margin-left: 25px;
     margin-bottom: 0;
+    font-size:14px;
 }
+section#recette #ingredients ul li span{
+    font-weight: bold;
+}
+
 
 section#recette .container .row .sticky {
     margin-top: -10rem;
@@ -563,6 +568,11 @@ section#recette #description ul {
 
 section#recette #description ul li {
     padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+}
+section#recette #description ul li svg{
+    margin-right: 1rem;
 }
 
 section#recette #description ul li span {
